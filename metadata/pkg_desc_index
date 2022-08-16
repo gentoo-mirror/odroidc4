@@ -1,1 +1,2 @@
 sys-apps/mmc-utils 9999: Userspace tools for MMC/SD devices
+sys-kernel/odroidc4-sources 5.11.9 5.11.14: ODROID C4 kernel sources
