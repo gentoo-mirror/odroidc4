@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install postinst postrm preinst prepare setup test unpack
+DESCRIPTION=ODROID C4 kernel sources
+EAPI=8
+HOMEPAGE=https://github.com/tobetter/linux
+INHERIT=kernel-2
+IUSE=symlink build
+KEYWORDS=~arm64
+LICENSE=GPL-2
+RDEPEND=!build? ( app-arch/cpio dev-lang/perl sys-devel/bc sys-devel/bison sys-devel/flex sys-devel/make >=sys-libs/ncurses-5.2 virtual/libelf virtual/pkgconfig )
+RESTRICT=binchecks strip
+SLOT=5.11.15
+SRC_URI=https://github.com/tobetter/linux/archive/d31308a4645667c5267603b5c6f6cc55fc561ac4.tar.gz -> linux-5.11.15-odroidc4.tar.gz
+_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157	kernel-2	1e55bee3f3081b16ebc1ca0cf1264f6c
+_md5_=5821f30159cdbb54bfe537e1bb0a2fbb
